@@ -23,7 +23,13 @@ console.log(age);
 // cannot change the x values after the declaration
 const x= 100;
 
-console.log(x);
+console.log(x); // it is a Function 
+// Function take input and do some task and gives you output
+// console.log function take some data as input and display them in the output
+// console.log("Prathamesh"); display the string two different console log which show / print the values on different lines
+
+console.log(10,"Prathamesh Mane"); // display in one line and space separated
+
 
 // Naming Rules for variable creation 
 

@@ -16,6 +16,15 @@ let x = 12; // x is label and 12 is value
 
 // it is recommended practice
 
+// Comments in the javascript
+
+// Comments are for documentation purpose 
+
+// Single line comment - //
+
+// Multi Line comment - /*      */ 
+
+
  
 
 
