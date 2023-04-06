@@ -78,4 +78,68 @@ console.log("Short Circuit AND",(10&&6));// 10 is true and we get the second ope
 
 
 console.log("Short Circuit OR",(4>5)||13); // 10 is true then return true value
-console.log("Short Circuit OR",10||15);// if first is false then it return the second operand
+console.log("Short Circuit OR",10||15);// if first is false then it return the second operand, if first is true then dont see the second operand return the first operand
+
+
+//////////// Special Numbers NAN ZERO and Negative Zero Infinity and Negative
+
+// 0,-0,NaN
+
+// -0 - If car is deaccelerating and immediately stoppend on x axis and to give you direction of that entity head is pointing may need such type of number to represent - Game developers used such things
+// NaN - if number is not present in the array such number have index NaN ( Situations which you are bound to return a number but there is no valid possible number to return) 10/Null
+// Propery of NaN - it is not equal to itself.
+console.log(10/null); // Infinity
+console.log(undefined/null); // Null (Invalid Division)
+// Infinity
+// -Infinity
+console.log(Infinity);
+console.log(-0);
+console.log(NaN);
+console.log(-Infinity);
+console.log(10> -Infinity);
+console.log(10< -Infinity);
+
+
+// Bitwise Operators ( Perform the corresponding Operation bit by bit on operands)
+/*
+& - Bitwise And
+| - Bitwise OR
+^ - Bitwise XOR
+~ - Bitwise Not
+*/
+
+// 5 - 101 (Binary Representation of 5)
+// 7 - 111 ( Binary Representation of 7)
+
+console.log(5 & 7); // 5
+console.log(6 & 9); // 0
+console.log(5 | 7); // 7
+
+
+// Strict and Equality Operators (Both check the types of the x and y)
+
+// == - Abstract Equality ( Do Type conversion)
+/*
+it check the type of both operands  
+if type is same then it calls the === , else type conversion occurs and then comparison is done
+*/
+
+
+
+
+// === -  Strict Equality ( never do type conversion)
+
+/*
+it check the type of both operands  
+if type is different then it return false else value comparison occurs
+
+*/
+
+
+
+console.log(1=="1"); // True
+// number and string is there then convert the string to number , 1==1 , then 1===1 so true
+console.log(1=="Prathamesh");  // False
+// number and string is there then convert the string to number , prathamesh convert to NaN , then 1===NaN so False
+
+
