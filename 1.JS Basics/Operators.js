@@ -143,3 +143,10 @@ console.log(1=="Prathamesh");  // False
 // number and string is there then convert the string to number , prathamesh convert to NaN , then 1===NaN so False
 
 
+//  Typeof Operator
+
+console.log(typeof "1");
+console.log(typeof 1);
+console.log(typeof false);
+console.log(typeof undefined);
+console.log(typeof null); // Issue in Javascript this should be null and object is different datatype
