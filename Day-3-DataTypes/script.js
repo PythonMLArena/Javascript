@@ -66,3 +66,6 @@ console.log(num1 - num2)
 // Typeof Operator 
 
 console.log(typeof(User1.fName)=="string");
+
+
+// Logical Operators
