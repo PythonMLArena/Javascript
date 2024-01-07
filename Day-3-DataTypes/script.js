@@ -69,3 +69,10 @@ console.log(typeof(User1.fName)=="string");
 
 
 // Logical Operators
+// AND OR NOT
+
+// AND (&&) , Bitwise AND(&) = All conditions must be true
+
+// OR (||) , Bitwise OR(|) = either one condition must be true
+
+// NOT (!) , convert true to false and false to true
