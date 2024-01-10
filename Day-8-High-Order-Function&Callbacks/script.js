@@ -44,3 +44,7 @@ function addnumv4(a,b,cb) {
 let NewFunc = addnumv4(45,45,() => {});
 
 NewFunc();
+
+// Callback functions have issue = callback hell 
+
+// Promises are the solution 
