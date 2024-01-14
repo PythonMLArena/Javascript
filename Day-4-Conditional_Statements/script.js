@@ -39,7 +39,7 @@ switch (options) {
 }
 
 
-const options1 = 2; // options matches at 2 from 2 to end all case will run
+const options1 = 2; // options matches at 2 from 2 to end all case will run if break is there is it block execution of code
 
 switch (options1) {
     case 1:{

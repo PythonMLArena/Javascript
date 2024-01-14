@@ -9,3 +9,4 @@ console.log("This is Prathamesh")
 
 // JS is Synchronous and single threaded Language 
 // Synchronous Single threaded = execute one command at a time in specified order 
+
